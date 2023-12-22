@@ -1,0 +1,25 @@
+.merge{
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.merge_value{
+  border: 1px solid #7a7a7a4a;
+  background-color: #f5f5f5;
+  font-weight: 800;
+  font-family: 'Inter';
+  min-height: 34px;
+}
+
+.old{
+  text-decoration: line-through;
+  text-decoration-color: #ed5e68;
+  text-decoration-thickness: 2px;
+  border-left: 3px solid #ed5e68;
+  background-color: #ffe7e9;
+}
+
+.new{
+  background-color: #e7ffed;
+  border-left: 3px solid #256029;
+}

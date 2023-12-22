@@ -1,0 +1,41 @@
+.content{
+  color: black;
+  font-family: MontserratRegular;
+  font-size: 12px;
+  padding: .25rem;
+  cursor: default;
+}
+
+.content h4{
+  margin: .25rem 0;
+}
+
+.content p{
+  margin: 0;
+}
+
+.toast {
+  max-width: 20rem;
+  right: 5px;
+}
+
+.toast > div > div {
+  background-color: #ffffff !important;
+}
+
+.toast > div > div[class="p-toast-message p-toast-message-error p-toast-message-enter-done"]{
+  border-left: 5px solid #a80000 !important;
+}
+
+.toast > div > div[class="p-toast-message p-toast-message-error p-toast-message-enter-done"] i{
+ color: #a80000 !important;
+}
+
+.toast > div > div[class="p-toast-message p-toast-message-success p-toast-message-enter-done"]{
+  border-left: 5px solid #107c10 !important;
+}
+
+.toast > div > div[class="p-toast-message p-toast-message-success p-toast-message-enter-done"] i{
+  color: #107c10 !important;
+}
+

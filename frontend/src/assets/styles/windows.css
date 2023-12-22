@@ -1,0 +1,43 @@
+.win-confirm.p-dialog{
+  font-family: Inter;
+  font-size: 14px;
+}
+
+.win-confirm.p-dialog .p-dialog-header{
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.win-confirm.p-dialog .p-dialog-footer{
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.win-confirm--warning.p-dialog .p-dialog-title,
+.win-confirm--warning.p-dialog .p-confirm-dialog-icon{
+  color: #ed5e68;
+}
+
+.win-confirm--warning.p-dialog .p-dialog-footer .p-confirm-dialog-reject{
+  color: #ed5e68;
+}
+
+.win-confirm--warning.p-dialog .p-dialog-footer .p-confirm-dialog-accept{
+  background-color: #ed5e68;
+  border-color: #ed5e68;
+}
+
+.win-confirm--warning.p-dialog .p-dialog-footer .p-confirm-dialog-accept:hover{
+  background-color: #ef6c75;
+}
+
+@media screen and (min-width: 576px) {
+  .win-confirm.p-dialog .p-dialog-header{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .win-confirm.p-dialog .p-dialog-footer{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+}

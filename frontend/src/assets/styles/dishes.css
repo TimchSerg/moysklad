@@ -1,0 +1,54 @@
+.dishes-category{
+
+}
+
+.dishes-category-icon{
+
+}
+
+.grid-item-img{
+  border-radius: 4px;
+  width: 172px;
+  height: 116px;
+  background-size: cover;
+  background-position: center;
+}
+
+.dishes-grid-item{
+  max-width: 240px;
+  line-height: 16px;
+  margin: 0 2px;
+  box-shadow: 0px 1px 5px #ccc;
+  border-radius: 5px;
+}
+
+.grid-item-img{
+  border-radius: 4px;
+  max-width: 75px;
+  height: 75px;
+  background-size: cover;
+}
+
+.dishes-grid-item-top{
+  padding: .5rem;
+}
+
+.dishes-grid-item-content{
+  display: flex;
+  overflow: hidden;
+  flex: 0 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 186px;
+  padding: 16px 10px;
+}
+
+.dishes-name{
+  font-weight: bold;
+}
+
+.dishes-description{
+  /* margin: 0.5rem 0px; */
+  color: #999;
+}

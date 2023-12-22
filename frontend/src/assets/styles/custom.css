@@ -1,0 +1,287 @@
+#root .p-button {
+  border-radius: 5px;
+}
+
+.p-unselectable-text.p-tabview-selected.p-highlight{
+  border-bottom: 3px solid;
+}
+
+.p-inputgroup .p-inputtext, .p-fluid .p-inputgroup .p-inputtext, .p-inputgroup .p-inputwrapper, .p-fluid .p-inputgroup .p-input {
+  width: 100% !important;
+}
+
+.image-text {
+  margin: 0.25rem;
+  width: 60px;
+}
+
+.task-status{
+  border-radius: 2px;
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: .3px;
+}
+
+.task-status-new,.task-status-client, .question-type-isOne, .question-category-standard, .schema-category-coffee{
+  background-color: #b3e5fc;
+  color: #23547b;
+}
+
+.task-status-active, .question-type-text, .schema-category-default{
+  background-color: #feedaf;
+  color: #8a5340;
+}
+
+.task-status-start, .task-type-qr, .task-type-sbp, .task-status-manager, .question-type-area, .question-category-service{
+  background-color: #eccfff;
+  color: #694382;
+}
+
+.task-status-verification, .question-category-farewell, .schema-category-hookah {
+  background-color: #ffffff;
+  color: #dd0909;
+}
+
+.task-status-payout, .task-type-pay_acc, .question-category-main{
+  background-color: #ffe9cd;
+  color: #c68337;
+}
+
+.task-status-payment, .task-status-owner, .question-category-entry{
+  background-color: #dd0909;
+  color: #ffffff;
+}
+
+.task-status-confirm, .rest-status-active, .question-category-order, .schema-category-restaurants{
+  background-color: #c8e6c9;
+  color: #256029;
+}
+
+.task-status-reject, .rest-status-notActive, .question-category-impression{
+  background-color: #ffcdd2;
+  color: #c63737;
+}
+
+.p-tabview .p-tabview-nav li {
+  font-size: 12px;
+}
+
+.p-tabview .p-tabview-nav-btn.p-link {
+  background: #ffffff9c !important;
+  width: 2rem !important;
+}
+
+.p-tabview-nav-next {
+  right: -5px !important;
+}
+
+.p-tabview-nav-prev {
+  left: -5px !important;
+}
+
+.p-tabview .p-tabview-panels {
+  padding: 1rem 0rem !important;
+}
+
+.p-fileupload .p-fileupload-buttonbar,
+.p-fileupload .p-fileupload-content {
+  border: 1px solid #dfdfdf !important;
+}
+
+
+.p-radiobutton .p-radiobutton-box:not(.p-disabled).p-focus {
+  box-shadow: none !important;
+  border-color: #ffcc75 !important;
+}
+
+.p-radiobutton .p-radiobutton-box:not(.p-disabled).p-highlight {
+  background: #ffffff !important;
+  border-color: #ffa307 !important;
+}
+
+.p-radiobutton .p-radiobutton-box .p-radiobutton-icon {
+  width: 12px !important;
+  height: 12px !important;
+}
+.p-radiobutton .p-radiobutton-box .p-radiobutton-icon {
+  background-color: #ffa307 !important;
+}
+
+.p-rating .p-rating-icon.pi-star-fill {
+  color: #f7a309 !important;
+}
+
+.custom-input-text{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ede8e9;
+  border-radius: 8px;
+  padding: 12px 18px;
+}
+
+.custom-input-text label {
+  font-weight: normal;
+  font-size: 12px;
+  color: #908e8e;
+}
+
+.custom-input-text input{
+  font-weight: bold;
+  font-size: 14px;
+  color: #3a3335;
+  background: #fff;
+  height: 24px;
+  font-family: MontserratRegular;
+  font-style: normal;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  border: none;
+  padding-left: 0px;
+}
+
+.custom-input-text > .p-multiselect{
+  font-weight: bold;
+  font-size: 14px;
+  color: #3a3335;
+  background: #fff;
+  font-family: MontserratRegular;
+  font-style: normal;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  border: none;
+  padding-left: 0px !important;
+}
+
+.p-multiselect-panel .p-multiselect-header .p-multiselect-close {
+  display: none;
+}
+
+.custom-multiselect .p-multiselect-label-container .p-multiselect-label{
+  padding: 0px 15px 0px 0px;
+}
+
+.p-multiselect-panel .p-multiselect-header .p-multiselect-filter-container .p-inputtext{
+  padding: 0.25rem;
+  font-size: 14px;
+  border-color: #d7d7d7;
+  font-family: MontserratRegular;
+}
+
+.p-multiselect:not(.p-disabled).p-focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+  white-space: break-spaces;
+  max-width: fit-content;
+  min-width: 100%;
+}
+
+.bottom-nav-item--title {
+  text-align: center;
+}
+
+.bottom-nav {
+  z-index: 9998 !important;
+}
+
+.p-sidebar .p-sidebar-header {
+  padding: .75rem 1rem !important;
+  border-bottom: 1px solid silver;
+}
+
+.p-sidebar .p-sidebar-content {
+  padding: 0 1rem 4rem 1rem !important;
+}
+
+.p-divider.p-divider-horizontal:before {
+  border-top-color: #cbcbcb !important;
+}
+
+.p-dataview.p-dataview-list .p-dataview-content > .p-grid > div {
+  border-width: 0 0 0px 0 !important;
+  box-shadow: 0px 6px 19px -3px #cbcbcb;
+}
+
+.p-tabview-title {
+  margin-left: 0.25rem;
+}
+
+.p-chip.chip-confirm {
+  background-color: #c8e6c9;
+  color: #256029;
+}
+
+.p-chip.chip-error {
+  background-color: #ffcdd2;
+  color: #c63737;
+}
+
+.p-datatable.p-datatable-striped .p-datatable-tbody > tr.p-row-odd {
+  border: 1px solid #cdcdcdcf;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+.p-inputtext {
+  padding: 0.2rem 0.5rem !important;
+}
+
+.bottom-nav {
+  height: 54px !important;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  padding: 0.5rem 0.75rem !important;
+}
+
+.p-button {
+  padding: 0.4rem 0.75rem !important;
+  font-size: 14px !important;
+}
+
+.p-dialog .p-dialog-header {
+  padding: 0.75rem 1.5rem !important;
+}
+
+.p-scrollpanel p {
+  padding: .5rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.p-scrollpanel.custombar .p-scrollpanel-wrapper {
+  border-right: 10px solid var(--surface-b);
+}
+
+.p-scrollpanel.custombar .p-scrollpanel-bar {
+  background-color: var(--primary-color);
+  opacity: 1;
+  transition: background-color .2s;
+}
+
+.p-scrollpanel.custombar .p-scrollpanel-bar:hover {
+  background-color: #007ad9;
+}
+
+
+@media screen and (max-width: 768px) {
+  .p-datatable.table-mobile-rows.p-datatable-responsive-stack .p-datatable-tbody > tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .p-datatable.table-mobile-rows.p-datatable-responsive-stack .p-datatable-tbody > tr > td {
+    flex-direction: column;
+    align-items: start;
+    align-self: center;
+    padding: 0.5rem;
+  }
+  .p-datatable.table-mobile-rows.p-datatable-responsive-stack .p-datatable-tbody > tr > td > .p-column-title {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.private-main{
+  display: flex;
+  height: calc(100dvh - 75px);
+}
+
+.main-page{
+  width: 100%;
+}
+
+.content-header{
+  font-family: serif;
+  font-size: 24px;
+  color: #757b81;
+}
+
+.question-style{
+  display: flex;
+  border: 1px solid #ede8e9;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-bottom: .25rem !important;
+}
+
+.icon-setting{
+  border: 1px solid #676767;
+  margin: 0.25rem;
+  width: 29px;
+  height: 29px;
+  padding: 0.35rem;
+  border-radius: 50%;
+}
+
+.link-setting{
+  text-decoration: none;
+  color: #000;
+}
+
+.link-setting span{
+  margin-left: 0.25rem;
+  font-family: initial;
+  font-weight: 600;
+}
+
+.restaurants-list-item img{
+  box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+  width: 114px;
+  margin: 1rem 0;
+  border-radius: 50%;
+  height: 114px;
+  object-fit: contain;
+}
+
+.restaurants-list-detail {
+  flex: 1 1;
+  padding: 0rem 1rem;
+}
+
+.restaurants-list-action{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurants-name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.style-questions-responses {
+  border: 1px solid #dfdddd;
+  border-radius: 14px;
+}
+
+@media screen and (max-width: 576px){
+  .restaurants-list-item img {
+    width: 164px;
+    height: 164px;
+  }
+  .restaurants-list-detail {
+    text-align: center;
+  }
+  .restaurants-list-action{
+    margin-top: 1rem;
+    flex-direction: row;
+    
+    align-items: center;
+    width: 100%;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

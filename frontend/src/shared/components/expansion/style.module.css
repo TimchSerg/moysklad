@@ -1,0 +1,58 @@
+.icon {
+    width: 20px;
+    height: 20px;
+    transition: 0.5s;
+    transform: rotate(180deg);
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    padding: 2px 3px;
+    color: #afacac;
+  }
+  .icon svg {
+    margin: 0.1rem;
+    font-size: 12px;
+  }
+  .iconActive {
+    transform: rotate(270deg);
+    padding: 1px 4px;
+  }
+  
+  .line {
+    height: 0px;
+    margin: 0 auto;
+    width: 0%;
+    background-color: #cccccc4a;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+  .item.itemActive .line {
+    height: 1px;
+    width: 98%;
+    margin: 0.25rem auto;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+  }
+  
+  .item {
+    overflow: hidden;
+    -webkit-transition: 1s;
+    transition: 1s;
+    min-height: 0px;
+    max-height: 0px;
+  }
+  .item.itemActive {
+    -webkit-transition: 1s;
+    transition: 1s;
+    min-height: 62px;
+    max-height: 12000px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .iconActive {
+      transform: rotate(270deg);
+      padding: 0px 2px;
+    }
+    .icon {
+      padding: 0px 3px;
+    }
+  }
