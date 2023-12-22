@@ -22,7 +22,7 @@ import { Token } from 'src/decorators/toke.decorator';
 const Moysklad = require('moysklad')
 
 
-@Controller('authorization')
+@Controller('/api/authorization')
 export class AuthorizationController {
   constructor() {}
 

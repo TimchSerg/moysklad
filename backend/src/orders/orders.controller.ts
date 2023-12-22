@@ -23,7 +23,7 @@ import { Token } from 'src/decorators/toke.decorator';
 // https://github.com/wmakeev/moysklad/tree/master?tab=readme-ov-file
 const Moysklad = require('moysklad')
 
-@Controller('orders')
+@Controller('/api/orders')
 export class OrdersController {
   private rebaseOrder(order: any){
     return {
